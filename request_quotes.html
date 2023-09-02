@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Concrete Contractor - Request Quotes</title>
+  <link href="dadswebsite.css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="logo">
+    <img src="your_logo.png" alt="Company Logo">
+  </div>
+
+  <div id="topMenu">
+    <a href="index.html">Home</a>
+    <a href="past_jobs.html">Past Jobs</a>
+    <a href="request_quotes.html">Request Quotes</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div id="content">
+    <h1>Request Quotes</h1>
+    <form action="process_form.php" method="post" enctype="multipart/form-data">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="jobInfo">About the Job:</label>
+      <textarea id="jobInfo" name="jobInfo" rows="4" cols="50" required></textarea><br>
+
+      <label for="file">Upload Pictures:</label>
+      <input type="file" id="file" name="file[]" multiple><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+</body>
+</html>

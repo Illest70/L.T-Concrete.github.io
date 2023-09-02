@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #f1c232;
+  margin: 0;
+  padding: 0;
+  background-color: #1a3273;  /* Soft blue background */
+}
+
+/* Logo Styles */
+#logo {
+  text-align: center;
+  padding: 2px;
+  background-color: #1a3273;  /* White background for logo */
+}
+
+#logo img {
+  max-width: 200px;  /* Maximum width for the logo */
+}
+
+/* Top Menu Styles */
+#topMenu {
+  background-color: #333;
+  overflow: hidden;
+}
+
+#topMenu a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+#topMenu a:hover {
+  background-color: #575757;
+}
+
+/* Content Styles */
+#content {
+  padding: 20px;
+}
+
+/* Form Styles */
+form label, form input {
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 400px;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery-item {
+  margin: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.gallery-item img {
+  max-width: 100%;
+}
+
+.gallery-item p {
+  margin: 0;
+  padding: 10px;
+  background-color: #f3f3f3;
+}
+
+
+/* Form Layout */
+form label, form input, form textarea, form select {
+  display: block;  /* Make them block-level elements */
+  width: 50%;
+  margin-bottom: 20px;  /* Add some space below each element */
+}
+
+/* Input and Textarea Styles */
+input[type="text"], input[type="tel"], input[type="email"], textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+/* File Input Styles */
+input[type="file"] {
+  margin-top: 10px;
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
